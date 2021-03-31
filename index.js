@@ -265,6 +265,8 @@ function error() {
     document.body.style.color = "white";
     document.getElementById('time').style.color = "white";
     document.getElementById('link').style.color = "white"
+    document.getElementById('next').style.color = "white"
+    document.getElementById('renweb').style.color = "white"
     document.getElementById("clase").innerHTML = "Recreo";
     document.getElementById("teach").innerHTML = ""
     document.getElementById('zoom').innerHTML = "" 
@@ -276,6 +278,8 @@ function noschool() {
     document.body.style.color = "white";
     document.getElementById('link').style.color = "white"
     document.getElementById('time').style.color = "white"
+    document.getElementById('next').style.color = "white"
+    document.getElementById('renweb').style.color = "white"
     document.getElementById("clase").innerHTML = "No hay clase.";
     document.getElementById("teach").innerHTML = ""
     document.getElementById('zoom').innerHTML =  ""
@@ -570,3 +574,4 @@ function alg() {
     }
 }  
 alg()
+console.log("Hacker")
