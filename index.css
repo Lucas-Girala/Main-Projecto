@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color:white;
+    font-size: 4.3vw;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+a {
+    color:black;
+    text-align: center;
+}
+li {
+    list-style: none;
+    color:darksalmon;
+    text-align: center;
+}
+#time {
+    font-family:'Courier New', Courier, monospace;
+    size: .7vw;
+    color:black;
+    float:left;
+}
+#next {
+    font-family:'Courier New', Courier, monospace;
+    size: .7vw;
+    color:black;
+    float:right;
+}
+#link {
+    font-family:'Courier New', Courier, monospace;
+    size: 1vw;
+    color:black;
+    float:right;
+}
+#tt, #NK {
+    width:100%;
+    height:150%;
+}
