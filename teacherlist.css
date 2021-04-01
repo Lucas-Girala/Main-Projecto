@@ -8,3 +8,8 @@ a, li {
     list-style: none;
     color:lightblue;
 }
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+/*COPYRIGHT LUCAS GIRALA*/
