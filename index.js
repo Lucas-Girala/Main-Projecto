@@ -1,5 +1,4 @@
 function math() {
-    //done
     document.body.style.backgroundColor = "lightblue";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -570,8 +569,11 @@ function alg() {
             reset()
         }
     } else {
+        //COPYRIGHT LUCAS GIRALA
         noschool()
+        //COPYRIGHT LUCAS GIRALA
     }
 }  
 alg()
 console.log("Hacker")
+//COPYRIGHT LUCAS GIRALA
