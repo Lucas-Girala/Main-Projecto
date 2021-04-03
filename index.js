@@ -315,7 +315,7 @@ function timeClock(){
     var refresh=1000; // Refresh rate in milli seconds
     mytime=setTimeout('timeThing()',refresh)
 }
-//timeThing()
+timeThing()
 
 //Algrotithm
 function alg() {
@@ -575,5 +575,6 @@ function alg() {
         noschool()
     }
 }  
+alg()
 console.log("HACKER")
 //COPYRIGHT LUCAS GIRALA
