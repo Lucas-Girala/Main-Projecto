@@ -1,3 +1,31 @@
+function buss() {
+    document.body.style.backgroundColor = "lightgreen";
+    document.body.style.color = "black";
+    document.getElementById('time').style.color = "black";
+    document.getElementById("next").style.color = "black";
+    document.getElementById("clase").innerHTML = "Business";
+    document.getElementById("teach").innerHTML = "Karen Bonifazi";
+    document.getElementById('zoom').innerHTML = "" 
+    document.getElementById('zoom').href = ""
+}
+function PE() {
+    document.body.style.backgroundColor = "blue";
+    document.body.style.color = "white";
+    document.getElementById("time").style.color = "white";
+    document.getElementById("next").style.color = "white";
+    document.getElementById("clase").innerHTML = "Ed. Fisica";
+    document.getElementById("teach").innerHTML = "";
+    document.getElementById('zoom').innerHTML = "" 
+    document.getElementById('zoom').href = ""
+}
+function geol() {
+    document.body.style.backgroundColor = "brown";
+    document.body.style.color = "white";
+    document.getElementById("clase").innerHTML = "Geologia CB";
+    document.getElementById("teach").innerHTML = "Susana Ulibarri";
+    document.getElementById('zoom').innerHTML = "" 
+    document.getElementById('zoom').href = ""
+}
 function math() {
     document.body.style.backgroundColor = "lightblue";
     document.body.style.color = "black";
@@ -41,7 +69,6 @@ function psych() {
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/6570000170?pwd=MFV6NlNRcEJxZWd2Zit4Z1F5N3JhUT09" 
 }
 function literatura() {
-    //done
     document.body.style.backgroundColor = "red";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "white";
@@ -84,15 +111,6 @@ function esol() {
     document.getElementById('rw4').innerHTML = "RenWeb" 
 
 }
-function buss() {
-    document.body.style.backgroundColor = "lightgreen";
-    document.body.style.color = "black";
-    document.getElementById('time').style.color = "black";
-    document.getElementById("next").style.color = "black";
-    document.getElementById("clase").innerHTML = "Business";
-    document.getElementById("teach").innerHTML = "Karen Bonifazi";
-    document.getElementById('zoom').innerHTML = "" 
-}
 function global() {
     document.body.style.backgroundColor = "green";
     document.body.style.color = "white";
@@ -122,23 +140,14 @@ function joel() {
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/5473521044?pwd=K3VOTHZLRmlCcjI2RFgzaHVKOExNQT09" 
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
-function PE() {
-    document.body.style.backgroundColor = "blue";
-    document.body.style.color = "white";
-    document.getElementById("time").style.color = "white";
-    document.getElementById("next").style.color = "white";
-    document.getElementById("clase").innerHTML = "Ed. Fisica";
-    document.getElementById("teach").innerHTML = "";
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/7665725728?pwd=ZSt3YW1uY2JMNDFBT1dFZFBvbHU5Zz09" 
-}
 function bio() {
-    //done
     document.body.style.backgroundColor = "purple";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
     document.getElementById("clase").innerHTML = "Biology";
     document.getElementById("teach").innerHTML = "Ms Silvia";
+    //COPYRIGHT LUCAS GIRALA
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/3800031585" 
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
@@ -185,14 +194,6 @@ function pintos() {
     document.getElementById('rw').innerHTML = "RenWeb"
     document.getElementById('zoom2').innerHTML = "Zoom"  
 }
-function geol() {
-    document.body.style.backgroundColor = "brown";
-    document.body.style.color = "white";
-    document.getElementById("clase").innerHTML = "Geologia CB";
-    document.getElementById("teach").innerHTML = "Susana Ulibarri";
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/71631192660?pwd=WjB1bDdHckcxMm9qbEVTWEt2ZHFrUT09" 
-    document.getElementById('zoom').innerHTML = "Zoom" 
-}
 function geom() {
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
@@ -219,6 +220,7 @@ function asamblea() {
     document.getElementById("next").style.color = "white";
     document.getElementById("clase").innerHTML = "Asamblea";
     document.getElementById("teach").innerHTML = "???";
+    document.getElementById('zoom').innerHTML = "Zoom" 
     document.getElementById('zoom').href = "https://zoom.us/j/92336113980" 
 }
 function ariel() {    
@@ -227,6 +229,7 @@ document.body.style.color = "black";
 document.getElementById("next").style.color = "black";
 document.getElementById("time").style.color = "black";
 document.getElementById("teach").innerHTML = "Ariel";
+document.getElementById('zoom').innerHTML = "Zoom" 
 document.getElementById('zoom').href = "https://us04web.zoom.us/j/9646311511?pwd=NVk5RjIzL1pwNXA3a2J6L2NqWEZvdz09" 
 }
 function guara() {
@@ -264,9 +267,9 @@ function error() {
     document.body.style.color = "white";
     document.getElementById('time').style.color = "white";
     document.getElementById('link').style.color = "white"
+    document.getElementById("clase").innerHTML = "Recreo";
     document.getElementById('next').style.color = "white"
     document.getElementById('renweb').style.color = "white"
-    document.getElementById("clase").innerHTML = "Recreo";
     document.getElementById("teach").innerHTML = ""
     document.getElementById('zoom').innerHTML = "" 
     document.getElementById('next').innerHTML = "" 
@@ -276,9 +279,9 @@ function noschool() {
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
     document.getElementById('link').style.color = "white"
-    document.getElementById('time').style.color = "white"
     document.getElementById('next').style.color = "white"
     document.getElementById('renweb').style.color = "white"
+    document.getElementById('time').style.color = "white"
     document.getElementById("clase").innerHTML = "No hay clase.";
     document.getElementById("teach").innerHTML = ""
     document.getElementById('zoom').innerHTML =  ""
@@ -295,7 +298,7 @@ function addZeroes(num) {
     return num
 }
 function timeThing() {
-    //creating shit
+    //creating elements
     rightNow = new Date()
     minute = rightNow.getMinutes(), hour = rightNow.getHours(), seconds = rightNow.getSeconds(), day = rightNow.getDay();
     total = ((hour*60)*60) + (minute*60) + seconds
@@ -303,7 +306,7 @@ function timeThing() {
     theTime += addZeroes(hour) + ":" + addZeroes(minute) + ":" + addZeroes(seconds)
     alg()
     
-//displaying said shit
+    //displaying elements
     document.getElementById("time").innerHTML = theTime; 
     document.getElementById("title").innerHTML = theTime;
     timeClock()
@@ -312,7 +315,7 @@ function timeClock(){
     var refresh=1000; // Refresh rate in milli seconds
     mytime=setTimeout('timeThing()',refresh)
 }
-timeThing()
+//timeThing()
 
 //Algrotithm
 function alg() {
@@ -569,11 +572,8 @@ function alg() {
             reset()
         }
     } else {
-        //COPYRIGHT LUCAS GIRALA
         noschool()
-        //COPYRIGHT LUCAS GIRALA
     }
 }  
-alg()
-console.log("Hacker")
+console.log("HACKER")
 //COPYRIGHT LUCAS GIRALA
