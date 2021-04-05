@@ -173,6 +173,7 @@ function ingles() {
     document.getElementById("next").style.color = "white";
     document.getElementById("clase").innerHTML = "English";
     document.getElementById("teach").innerHTML = "Mr V";
+    document.getElementById('renweb').style.color = "white";
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/7093269071" 
     document.getElementById('zoom').innerHTML = "Zoom" 
     document.getElementById("zoom").style.color = "white";
