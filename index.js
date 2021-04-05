@@ -175,8 +175,9 @@ function ingles() {
     document.getElementById("teach").innerHTML = "Mr V";
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/7093269071" 
     document.getElementById('zoom').innerHTML = "Zoom" 
+    document.getElementById("zoom").style.color = "white";
     document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "black";
+    document.getElementById("email").style.color = "white";
     document.getElementById('email').href = 'mailto:vvasconsellos@csa.edu.py'
 }
 function joel() {
