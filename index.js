@@ -10,8 +10,8 @@ function buss() {
     document.getElementById("teach").innerHTML = "Karen Bonifazi";
     document.getElementById("email").innerHTML = "Email";   
     document.getElementById("email").href = "mailto:kbonifazi@csa.edu.py";     
-    document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/75563864657?pwd=S3JDYlIxSnM2OXVKSlJGSkF6Wnh2Zz09"
+    document.getElementById('zoom').innerHTML = "" 
+    document.getElementById('zoom').href = ""
 }
 function PE() {
     document.body.style.backgroundColor = "blue";
@@ -24,9 +24,9 @@ function PE() {
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "";    
-    document.getElementById("teach").innerHTML = "";
-    document.getElementById('zoom').innerHTML = "" 
-    document.getElementById('zoom').href = ""
+    document.getElementById("teach").innerHTML = "Jorge Gaona";
+    document.getElementById('zoom').innerHTML = "Zoom" 
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/7665725728?pwd=ZSt3YW1uY2JMNDFBT1dFZFBvbHU5Zz09"
 }
 function geol() {
     document.body.style.backgroundColor = "brown";
