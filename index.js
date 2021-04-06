@@ -246,6 +246,7 @@ function biblia() {
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
+    document.getElementById("link").style.color = "black";
     document.getElementById("email").innerHTML = "";   
     document.getElementById('email').href = ''
     document.getElementById('zoom').href = "https://us05web.zoom.us/j/6510381521?pwd=aGdzM2dLblNPa1BrQ3h3RXF3VWd2UT09" 
