@@ -20,9 +20,9 @@ function PE() {
     document.getElementById("next").style.color = "white";
     document.getElementById("clase").innerHTML = "Ed. Fisica";
     document.getElementById("email").innerHTML = "";   
-    document.getElementById("email").style.color = "black";
-    document.getElementById("renweb").style.color = "black";
-    document.getElementById("zoom").style.color = "black";
+    document.getElementById("email").style.color = "white";
+    document.getElementById("renweb").style.color = "white";
+    document.getElementById("zoom").style.color = "white";
     document.getElementById("email").href = "";    
     document.getElementById("teach").innerHTML = "Jorge Gaona";
     document.getElementById('zoom').innerHTML = "Zoom" 
