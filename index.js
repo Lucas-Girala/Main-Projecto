@@ -216,6 +216,7 @@ function joel() {
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
+    document.getElementById("link").style.color = "black";
     document.getElementById('email').href = 'mailto:jbritez@csa.edu.py'
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/5473521044?pwd=K3VOTHZLRmlCcjI2RFgzaHVKOExNQT09" 
     document.getElementById('zoom').innerHTML = "Zoom" 
@@ -279,7 +280,7 @@ function ict() {
     document.getElementById("email2").style.color = "black";
     document.getElementById("rw").style.color = "black";
     document.getElementById("zoom2").style.color = "black";
-    document.getElementById('zoom2').href = "https://us04web.zoom.us/j/7185194468?pwd=iqgcQt6bu-6p1lpmCrTnPneQU9UKvg" 
+    document.getElementById('zoom2').href = "https://zoom.us/j/2730983712?pwd=ZHgzQlc2TTVLQ3BOSkNHWldtdTVadz09" 
     document.getElementById('rw').innerHTML = "RenWeb"
     document.getElementById('zoom2').innerHTML = "Zoom"  
 }
