@@ -312,7 +312,7 @@ function geom() {
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById('email').href = 'mailto:rportillo@csa.edu.py'
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/2491783834?pwd=bjlZNmxjcHQrYXVMUlFRZXFBczhmdz09" 
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/4849009285?pwd=RjJMblRpSG9wbDFzODR2bzcxMmsxZz09" 
 }
 function cont() {
     document.body.style.backgroundColor = "blue";
