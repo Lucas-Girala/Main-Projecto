@@ -38,8 +38,8 @@ function geol() {
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "mailto:sulibarri@csa.edu.py";    
-    document.getElementById('zoom').innerHTML = "" 
-    document.getElementById('zoom').href = ""
+    document.getElementById('zoom').innerHTML = "Zoom" 
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/78641521000?pwd=NjNCZ3dlcmc0emhBdjJidlRYVjczUT09"
 }
 function math() {
     document.body.style.backgroundColor = "lightblue";
