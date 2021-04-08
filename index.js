@@ -75,14 +75,14 @@ function joelCS() {
 }
 function selva() {
     document.body.style.backgroundColor = "green";
-    document.body.style.color = "black";
-    document.getElementById("time").style.color = "black";
-    document.getElementById("next").style.color = "black";
+    document.body.style.color = "white";
+    document.getElementById("time").style.color = "white";
+    document.getElementById("next").style.color = "white";
 
     document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "black";
-    document.getElementById("renweb").style.color = "black";
-    document.getElementById("zoom").style.color = "black";
+    document.getElementById("email").style.color = "white";
+    document.getElementById("renweb").style.color = "white";
+    document.getElementById("zoom").style.color = "white";
     document.getElementById("email").href = "mailto:sbenitez@csa.edu.py";  
 
     document.getElementById("teach").innerHTML = "Selva Benitez";
