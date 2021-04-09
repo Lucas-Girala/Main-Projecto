@@ -341,7 +341,7 @@ function asamblea() {
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").innerHTML = "";   
 
-    document.getElementById('zoom').href = "https://zoom.us/j/92336113980" 
+    document.getElementById('zoom').href = "https://zoom.us/j/96768177674" 
 }
 function ariel() {    
     document.body.style.backgroundColor = "lightblue";
