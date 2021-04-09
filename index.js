@@ -10,8 +10,8 @@ function buss() {
     document.getElementById("teach").innerHTML = "Karen Bonifazi";
     document.getElementById("email").innerHTML = "Email";   
     document.getElementById("email").href = "mailto:kbonifazi@csa.edu.py";     
-    document.getElementById('zoom').innerHTML = "" 
-    document.getElementById('zoom').href = ""
+    document.getElementById('zoom').innerHTML = "Zoom" 
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/75563864657?pwd=S3JDYlIxSnM2OXVKSlJGSkF6Wnh2Zz09"
 }
 function PE() {
     document.body.style.backgroundColor = "blue";
@@ -38,8 +38,8 @@ function geol() {
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "mailto:sulibarri@csa.edu.py";    
-    document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/78641521000?pwd=NjNCZ3dlcmc0emhBdjJidlRYVjczUT09"
+    document.getElementById('zoom').innerHTML = "" 
+    document.getElementById('zoom').href = ""
 }
 function math() {
     document.body.style.backgroundColor = "lightblue";
