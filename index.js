@@ -10,8 +10,8 @@ function buss() {
     document.getElementById("teach").innerHTML = "Karen Bonifazi";
     document.getElementById("email").innerHTML = "Email";   
     document.getElementById("email").href = "mailto:kbonifazi@csa.edu.py";     
-    document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/78339002808?pwd=QUs2YzJTN2ViZlJuRkhkb3pMZFM3QT09"
+    document.getElementById('zoom').innerHTML = "" 
+    document.getElementById('zoom').href = ""
 }
 function PE() {
     document.body.style.backgroundColor = "blue";
