@@ -67,6 +67,9 @@ function joelCS() {
     document.getElementById("rw").style.color = "black";
     document.getElementById("zoom2").style.color = "black";
     document.getElementById("email2").href = "mailto:jbritez@csa.edu.py";  
+    document.getElementById("email").style.color = "black";
+    document.getElementById("renweb").style.color = "black";
+    document.getElementById("zoom").style.color = "black";
 
     document.getElementById("teach2").innerHTML = "Joel";
     document.getElementById('zoom2').href = "https://us04web.zoom.us/j/5473521044?pwd=K3VOTHZLRmlCcjI2RFgzaHVKOExNQT09" 
