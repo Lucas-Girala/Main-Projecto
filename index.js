@@ -24,9 +24,9 @@ function PE() {
     document.getElementById("renweb").style.color = "white";
     document.getElementById("zoom").style.color = "white";
     document.getElementById("email").href = "";    
-    document.getElementById("teach").innerHTML = "Igor Delgado";
+    document.getElementById("teach").innerHTML = "Jorge Gaona";
     document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/7760608057?pwd=Y2dnUFgyYUQxamFLZFhQVDhKUis2UT09"
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/7665725728?pwd=ZSt3YW1uY2JMNDFBT1dFZFBvbHU5Zz09"
 }
 function geol() {
     document.body.style.backgroundColor = "brown";
