@@ -3,7 +3,7 @@ body {
     color:white;
     font-size: 4.3vw;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Helvetica';
 }
 a:hover {
     background-color: rgba(112, 112, 112, 0.281);
@@ -30,7 +30,7 @@ li {
     float:right;
 }
 #link {
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Helvetica';
     size: 1vw;
     color:black;
     float:right;
