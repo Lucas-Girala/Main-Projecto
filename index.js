@@ -14,6 +14,7 @@ function buss() {
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/75563864657?pwd=S3JDYlIxSnM2OXVKSlJGSkF6Wnh2Zz09"
 }
 function PE() {
+    var jorge = true
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -23,10 +24,14 @@ function PE() {
     document.getElementById("email").style.color = "white";
     document.getElementById("renweb").style.color = "white";
     document.getElementById("zoom").style.color = "white";
-    document.getElementById("email").href = "";    
-    document.getElementById("teach").innerHTML = "Jorge Gaona";
+    document.getElementById("email").href = "";  
     document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/7665725728?pwd=ZSt3YW1uY2JMNDFBT1dFZFBvbHU5Zz09"
+    if (jorge==true) {
+        document.getElementById("teach").innerHTML = "Jorge Gaona";
+        document.getElementById('zoom').href = "https://us04web.zoom.us/j/7665725728?pwd=ZSt3YW1uY2JMNDFBT1dFZFBvbHU5Zz09"
+    } else {
+        document.getElementById("teach").innerHTML = "Igor Delgado";
+        document.getElementById('zoom').href = "https://us04web.zoom.us/j/7760608057?pwd=Y2dnUFgyYUQxamFLZFhQVDhKUis2UT09"
 }
 function geol() {
     document.body.style.backgroundColor = "brown";
