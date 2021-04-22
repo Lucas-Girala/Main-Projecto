@@ -12,6 +12,7 @@ function buss() {
     document.getElementById("email").href = "mailto:kbonifazi@csa.edu.py";     
     document.getElementById('zoom').innerHTML = "Zoom" 
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/75563864657?pwd=S3JDYlIxSnM2OXVKSlJGSkF6Wnh2Zz09"
+    
 }
 function PE() {
     var jorge;
@@ -475,18 +476,19 @@ function alg() {
         }else if (total < 33000) {
             buss()
             document.getElementById('next').innerHTML = "9:15 = Antropologia/Selva CB" 
+            reset()
         } else if (total < 36000) {
             selva()
             document.getElementById("clase").innerHTML = "Fisica/Quimica CB";
             joelCS()
             document.getElementById("clase2").innerHTML = "Antropologia";
-            document.getElementById('next').innerHTML = "10:00 = Recreo" 
-            
+            document.getElementById('next').innerHTML = "10:00 = Recreo"             
         } else if (total < 37500) {
             error()
             reset()
             document.getElementById('next').style.color = "white" 
             document.getElementById('next').innerHTML = "10:30 = Psicologia" 
+            
         } else if (total < 39300) {
             psych()
             document.getElementById('next').innerHTML = "11:00 = Maths" 
@@ -497,6 +499,7 @@ function alg() {
             esol()
             document.getElementById('zoom').href = "https://us02web.zoom.us/j/82312897414" 
             document.getElementById('next').innerHTML = "12:00 = Recreo" 
+            reset()
         } else if (total < 48300) {
             error()
             reset()
@@ -640,10 +643,12 @@ function alg() {
             reset()
             document.getElementById('next').style.color = "white" 
             document.getElementById('next').innerHTML = "10:30 = Fisica" 
+            reset()
         } else if (total < 39300) {
             selva()
             document.getElementById("clase").innerHTML = "Fisica";
             document.getElementById('next').innerHTML = "11:00 = Ingles" 
+            reset()
         } else if (total < 41100) {
             ingles()
             document.getElementById('next').innerHTML = "11:30 = Quimica" 
