@@ -11,7 +11,7 @@ function buss() {
     document.getElementById("email").innerHTML = "Email";   
     document.getElementById("email").href = "mailto:kbonifazi@csa.edu.py";     
     document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/75563864657?pwd=S3JDYlIxSnM2OXVKSlJGSkF6Wnh2Zz09"
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/73288450883?pwd=Sy8wbEs4ekp2enAvZ1JkZEdWeHpJQT09"
     
 }
 function PE() {
