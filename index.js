@@ -499,7 +499,6 @@ function alg() {
             esol()
             document.getElementById('zoom').href = "https://us02web.zoom.us/j/82312897414" 
             document.getElementById('next').innerHTML = "12:00 = Recreo" 
-            reset()
         } else if (total < 48300) {
             error()
             reset()
