@@ -13,6 +13,8 @@ function buss() {
     document.getElementById('zoom').innerHTML = "Zoom" 
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/73288450883?pwd=Sy8wbEs4ekp2enAvZ1JkZEdWeHpJQT09"
     
+    //href = link
+    //innerHTML = 'Zoom'
 }
 function PE() {
     var jorge;
