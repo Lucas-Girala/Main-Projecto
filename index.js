@@ -30,10 +30,10 @@ function PE() {
     document.getElementById('zoom').innerHTML = "Zoom";
     if (jorge==true) {
     document.getElementById("teach").innerHTML = "Jorge Gaona";
-    document.getElementById('zoom').href = "theuselessweb.com"
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/7665725728?pwd=ZSt3YW1uY2JMNDFBT1dFZFBvbHU5Zz09"
     } else if (jorge==false) {
     document.getElementById("teach").innerHTML = "Igor Delgado";
-    document.getElementById('zoom').href = "https://youtube.com/"
+    document.getElementById('zoom').href = "https://us04web.zoom.us/j/7760608057?pwd=Y2dnUFgyYUQxamFLZFhQVDhKUis2UT09"
     }
 
 }
