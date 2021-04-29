@@ -49,6 +49,6 @@ function onClick() {
   }
   
   function colorClock(){
-    var refresh=50
+    var refresh=1000
     mytime=setTimeout('onClick()', refresh)
     }
