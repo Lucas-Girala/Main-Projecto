@@ -712,6 +712,7 @@ function alg() {
             document.getElementById('next').style.color = "white" 
         } else if (total < 51300) {
             esol()
+            document.getElementById('zoom').href = "https://zoom.us/j/93778798119"
             document.getElementById('next').innerHTML = "14:15 = Recreo" 
         } else if (total < 51900) {
             error()
