@@ -1,4 +1,6 @@
 function onClick() {
+    var time
+    time+=30
     var random = Math.floor(Math.random()*11); 
     if (random == 0) {
       document.body.style.backgroundColor = "red";
@@ -44,6 +46,9 @@ function onClick() {
     else if (random == 10) {
       document.body.style.backgroundColor = "black";
       document.body.style.color = "white"
+    }
+    if (time>15000) {
+      document.body.style.backgroundColor = "black";
     }
     colorClock()
   }
