@@ -1,6 +1,6 @@
+var time=0
 function onClick() {
-    var time
-    time+=30
+    time = time +30
     var random = Math.floor(Math.random()*11); 
     if (random == 0) {
       document.body.style.backgroundColor = "red";
