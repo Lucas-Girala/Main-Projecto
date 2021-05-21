@@ -3,7 +3,7 @@ function onClick() {
     time = time +30
     var random = Math.floor(Math.random()*11); 
     if (time>5000) {
-      document.body.style.backgroundColor = "black";
+      getOut()
     } 
     else if (time < 5000) {
         if (random == 0) {
@@ -69,3 +69,8 @@ function onClick() {
     var refresh=30
     mytime=setTimeout('onClick()', refresh)
     }
+
+  function getOut() {
+    document.body.style.backgroundColor = "black";
+    time = 0
+  }
