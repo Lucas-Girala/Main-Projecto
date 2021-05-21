@@ -7,9 +7,9 @@ function buss() {
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById("clase").innerHTML = "Business";
-    document.getElementById("teach").innerHTML = "Karen Bonifazi";
+    document.getElementById("teach").innerHTML = "Jazmin Gutierrez";
     document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").href = "mailto:kbonifazi@csa.edu.py";     
+    document.getElementById("email").href = "mailto:jgutierrez@csa.edu.py";     
     document.getElementById('zoom').innerHTML = "Zoom" 
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/73288450883?pwd=Sy8wbEs4ekp2enAvZ1JkZEdWeHpJQT09"
     
