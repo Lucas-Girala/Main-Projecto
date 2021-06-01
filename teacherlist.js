@@ -74,3 +74,22 @@ function onClick() {
     document.body.style.backgroundColor = "black";
     time = 0
   }
+
+
+var rightNow = new Date();
+var day = rightNow.getDay(); 
+var link;
+function esolcpe() {
+  if (day==1) {
+    link = "https://us02web.zoom.us/j/82312897414" 
+  } else if (day==3) {
+    link = "https://us02web.zoom.us/j/87083885196"
+  } else if (day==5) {
+    link = "https://us02web.zoom.us/j/82891600876"
+  } else {
+    link = "https://csa-pry.client.renweb.com/pwr/student/lesson-plans.cfm"
+  }
+  document.getElementById('aguilera').href = link 
+}
+
+esolcpe()
