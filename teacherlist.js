@@ -2,6 +2,7 @@ var time=0
 function onClick() {
     time = time +30
     var random = Math.floor(Math.random()*11); 
+    document.getElementById("lol").src = "https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0;&amp;autoplay=1&amp;playlist=dQw4w9WgXcQ"
     if (time>5000) {
       getOut()
     } 
