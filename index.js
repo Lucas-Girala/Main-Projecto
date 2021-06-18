@@ -356,7 +356,7 @@ function asamblea() {
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").innerHTML = "";   
 
-    document.getElementById('zoom').href = "https://zoom.us/j/96768177674" 
+    document.getElementById('zoom').href = "https://us02web.zoom.us/j/9749060600" 
 }
 function ariel() {    
     document.body.style.backgroundColor = "lightblue";
@@ -731,5 +731,5 @@ function alg() {
         noschool()
     }
 }  
-console.log("HACKER")
+("%cHACKER", "background: yellow; color: red; font-size: x-large");
 //LUCAS GIRALA
