@@ -731,5 +731,6 @@ function alg() {
         noschool()
     }
 }  
-console.log("%cHACKER", "background: yellow; color: red; font-size: x-large");
+console.log("%cHACKER", "color: red; font-size: 10vw");
+
 //LUCAS GIRALA
