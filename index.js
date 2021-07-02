@@ -423,6 +423,13 @@ function reset() {
     document.getElementById('rw4').innerHTML = "" 
     document.getElementById("email4").innerHTML = "";   
 
+    document.getElementById("clase5").innerHTML = "";
+    document.getElementById("teach5").innerHTML = "";
+    document.getElementById('zoom5').href = "" 
+    document.getElementById("zoom5").innerHTML = ""
+    document.getElementById('rw5').innerHTML = "" 
+    document.getElementById("email5").innerHTML = "";   
+
 } 
 function error() {
     document.body.style.backgroundColor = "black";
