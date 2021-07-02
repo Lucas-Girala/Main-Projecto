@@ -139,6 +139,7 @@ function literatura() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function esol() {
+
     document.body.style.backgroundColor = "red";
     document.body.style.color = "black";
     document.getElementById("next").style.color = "white";
@@ -148,47 +149,59 @@ function esol() {
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/82891600876" 
     document.getElementById('zoom').innerHTML = "Zoom" 
     document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "black";
-    document.getElementById("renweb").style.color = "black";
-    document.getElementById("zoom").style.color = "black";
+    document.getElementById("email").style.color = "white";
+    document.getElementById("renweb").style.color = "white";
+    document.getElementById("zoom").style.color = "white";
     document.getElementById('email').href = 'mailto:english.secondary@csa.edu.py'
 
-    document.getElementById("clase2").innerHTML = "CPE";
+    document.getElementById("clase2").innerHTML = "CPE 2";
     document.getElementById("teach2").innerHTML = "Mr Brice";
     document.getElementById('zoom2').href = "https://us04web.zoom.us/j/7603837806?pwd=TmgxZ2pSUklPdUVCc2VDdjE2L1l3dz09" 
     document.getElementById("zoom2").innerHTML = "Zoom"
     document.getElementById('rw').innerHTML = "RenWeb" 
     document.getElementById("email2").innerHTML = "Email";   
-    document.getElementById("email2").style.color = "black";
-    document.getElementById("rw").style.color = "black";
-    document.getElementById("zoom2").style.color = "black";
+    document.getElementById("email2").style.color = "white";
+    document.getElementById("rw").style.color = "white";
+    document.getElementById("zoom2").style.color = "white";
     document.getElementById("email2").href = "mailto:nbrice@csa.edu.py";  
 
 
-    document.getElementById("clase3").innerHTML = "CAE";
+    document.getElementById("clase3").innerHTML = "CAE 1";
     document.getElementById("teach3").innerHTML = "Mr V";
     document.getElementById('zoom3').href = "https://us02web.zoom.us/j/7093269071" 
     document.getElementById("zoom3").innerHTML = "Zoom"
     document.getElementById('rw3').innerHTML = "RenWeb" 
     document.getElementById("email3").innerHTML = "Email";   
-    document.getElementById("email3").style.color = "black";
-    document.getElementById("rw3").style.color = "black";
-    document.getElementById("zoom3").style.color = "black";
+    document.getElementById("email3").style.color = "white";
+    document.getElementById("rw3").style.color = "white";
+    document.getElementById("zoom3").style.color = "white";
     document.getElementById("email3").href = "mailto:vvasconsellos@csa.edu.py";  
 
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
-    document.getElementById("clase4").innerHTML = "FCE";
+    document.getElementById("clase4").innerHTML = "CAE 2";
     document.getElementById("teach4").innerHTML = "Ms Rios";
     document.getElementById('zoom4').href = "https://us04web.zoom.us/j/8951997755?pwd=dStuQkVhT2ZYT0FUMDFiaVRlSmxNdz09" 
     document.getElementById("zoom4").innerHTML = "Zoom"
     document.getElementById('rw4').innerHTML = "RenWeb" 
     document.getElementById("email4").innerHTML = "Email";   
-    document.getElementById("email4").style.color = "black";
-    document.getElementById("rw4").style.color = "black";
-    document.getElementById("zoom4").style.color = "black";
+    document.getElementById("email4").style.color = "white";
+    document.getElementById("rw4").style.color = "white";
+    document.getElementById("zoom4").style.color = "white";
     document.getElementById("email4").href = "mailto:arios@csa.edu.py";  
 
+    document.body.style.backgroundColor = "blue";
+    document.body.style.color = "white";
+    document.getElementById("clase5").innerHTML = "CAE 3";
+    document.getElementById("teach5").innerHTML = "Mrs Vallese";
+    document.getElementById('zoom5').href = "https://us04web.zoom.us/j/2155500372?pwd=WWlNQ0pKSzF0ZlV4L1RqdW9xYXFiQT09" 
+    document.getElementById("zoom5").innerHTML = "Zoom"
+    document.getElementById('rw5').innerHTML = "RenWeb" 
+    document.getElementById("email5").innerHTML = "Email";   
+    document.getElementById("email5").style.color = "white";
+    document.getElementById("rw5").style.color = "white";
+    document.getElementById("zoom5").style.color = "white";
+    document.getElementById("email5").href = "mailto:vvallese@csa.edu.py";  
 }
 function global() {
     document.body.style.backgroundColor = "green";
