@@ -18,7 +18,7 @@ function buss() {
 }
 function PE() {
     var jorge;
-    jorge=false
+    jorge=true
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
