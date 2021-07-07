@@ -8,7 +8,7 @@ body {
 table {
     border-collapse: collapse;
     width: 100%;
-    font-size: 3vw;
+    font-size: 4vw;
   }
   
   th, td {
@@ -28,13 +28,14 @@ a:hover {
 a {
     color:black;
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 li {
     list-style: none;
     color:darksalmon;
     text-align: center;
+    
 }
 #time {
     font-family:'Courier New', Courier, monospace;
