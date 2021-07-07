@@ -1,4 +1,12 @@
+function renweb() {
+    document.getElementById("renweb").innerHTML = "Renweb"
+}
+function noRenweb() {
+    document.getElementById("renweb").innerHTML = ""
+    
+}
 function buss() {
+    renweb()
     document.body.style.backgroundColor = "lightgreen";
     document.body.style.color = "black";
     document.getElementById('time').style.color = "black";
@@ -17,8 +25,9 @@ function buss() {
     //innerHTML = 'Zoom'
 }
 function PE() {
+    renweb()
     var jorge;
-    jorge=true
+    jorge=false
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -40,20 +49,24 @@ function PE() {
 
 }
 function geol() {
+    noRenweb()
     document.body.style.backgroundColor = "brown";
     document.body.style.color = "white";
-    document.getElementById("clase").innerHTML = "Geologia CB";
-    document.getElementById("teach").innerHTML = "Susana Ulibarri";
-    document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "black";
-    document.getElementById("renweb").style.color = "black";
-    document.getElementById("zoom").style.color = "black";
-    document.getElementById("email").href = "mailto:sulibarri@csa.edu.py";    
-    document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/78641521000?pwd=NjNCZ3dlcmc0emhBdjJidlRYVjczUT09"
+    document.getElementById("clase1").innerHTML = "Geologia CB";
+    document.getElementById("teach1").innerHTML = "Susana Ulibarri";
+    document.getElementById("email1").innerHTML = "Email";   
+    document.getElementById("email1").style.color = "black";
+    document.getElementById("renweb").innerHTML = "";   
+    document.getElementById("renweb1").innerHTML = "renweb";   
+    document.getElementById("renweb1").style.color = "black";
+    document.getElementById("zoom1").style.color = "black";
+    document.getElementById("email1").href = "mailto:sulibarri@csa.edu.py";    
+    document.getElementById('zoom1').innerHTML = "Zoom" 
+    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/78641521000?pwd=NjNCZ3dlcmc0emhBdjJidlRYVjczUT09"
     
 }
 function math() {
+    renweb()
     document.body.style.backgroundColor = "lightblue";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -69,6 +82,7 @@ function math() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function joelCS() {
+    noRenweb()
     document.body.style.backgroundColor = "darksalmon";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -89,6 +103,7 @@ function joelCS() {
     document.getElementById('rw').innerHTML = "RenWeb" 
 }
 function selva() {
+    renweb()
     document.body.style.backgroundColor = "green";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -104,7 +119,30 @@ function selva() {
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/2406578074?pwd=ck11SzJYbzA0UDh1YmxYYm5kcFBrUT09" 
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
+function selvaCB() {
+    noRenweb()
+    document.body.style.backgroundColor = "green";
+    document.body.style.color = "white";
+    document.getElementById("time").style.color = "white";
+    document.getElementById("next").style.color = "white";
+
+    document.getElementById("email1").innerHTML = "Email";   
+    document.getElementById("email1").style.color = "black";
+    document.getElementById("renweb").innerHTML = "";   
+    document.getElementById("renweb1").innerHTML = "Renweb";   
+    document.getElementById("renweb1").style.color = "black";
+    document.getElementById("zoom1").style.color = "black";
+    document.getElementById("email1").href = "mailto:sbenitez@csa.edu.py";  
+
+    document.getElementById("teach1").innerHTML = "Selva Benitez";
+    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/2406578074?pwd=ck11SzJYbzA0UDh1YmxYYm5kcFBrUT09" 
+    document.getElementById('zoom1').innerHTML = "Zoom" 
+
+    document.getElementById("link").style.color = "white";   
+
+}
 function psych() {
+    renweb()
     document.body.style.backgroundColor = "lightblue";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -122,6 +160,7 @@ function psych() {
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/6570000170?pwd=MFV6NlNRcEJxZWd2Zit4Z1F5N3JhUT09" 
 }
 function literatura() {
+    renweb()
     document.body.style.backgroundColor = "red";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "white";
@@ -139,20 +178,22 @@ function literatura() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function esol() {
-
+    noRenweb()
     document.body.style.backgroundColor = "red";
     document.body.style.color = "black";
     document.getElementById("next").style.color = "white";
     document.getElementById("time").style.color = "white";
-    document.getElementById("clase").innerHTML = "CPE";
-    document.getElementById("teach").innerHTML = "Ms Aguilera";
-    document.getElementById('zoom').href = "https://us02web.zoom.us/j/82891600876" 
-    document.getElementById('zoom').innerHTML = "Zoom" 
-    document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "white";
-    document.getElementById("renweb").style.color = "white";
-    document.getElementById("zoom").style.color = "white";
-    document.getElementById('email').href = 'mailto:english.secondary@csa.edu.py'
+    document.getElementById("clase").innerHTML = "ESOL";
+    document.getElementById("clase1").innerHTML = "CPE";
+    document.getElementById("teach1").innerHTML = "Ms Aguilera";
+    document.getElementById('zoom1').href = "https://us02web.zoom.us/j/82891600876" 
+    document.getElementById('zoom1').innerHTML = "Zoom" 
+    document.getElementById("email1").innerHTML = "Email";   
+    document.getElementById("email1").style.color = "white";
+    document.getElementById("renweb1").innerHTML = "Renweb";
+    document.getElementById("renweb1").style.color = "white";
+    document.getElementById("zoom1").style.color = "white";
+    document.getElementById('email1').href = 'mailto:english.secondary@csa.edu.py'
 
     document.getElementById("clase2").innerHTML = "CPE 2";
     document.getElementById("teach2").innerHTML = "Mr Brice";
@@ -202,24 +243,30 @@ function esol() {
     document.getElementById("rw5").style.color = "white";
     document.getElementById("zoom5").style.color = "white";
     document.getElementById("email5").href = "mailto:vvallese@csa.edu.py";  
+
+    document.getElementById("link").style.color = "white";
+
 }
 function global() {
+    noRenweb()
     document.body.style.backgroundColor = "green";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
-    document.getElementById("clase").innerHTML = "Global Perspectives";
-    document.getElementById("teach").innerHTML = "Mr V";
-    document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "black";
-    document.getElementById("renweb").style.color = "black";
-    document.getElementById("zoom").style.color = "black";
-    document.getElementById('email').href = 'mailto:vvasconsellos@csa.edu.py'
+    document.getElementById("clase1").innerHTML = "Global Perspectives";
+    document.getElementById("teach1").innerHTML = "Mr V";
+    document.getElementById("email1").innerHTML = "Email";   
+    document.getElementById("email1").style.color = "black";
+    document.getElementById("renweb1").innerHTML = "Renweb";   
+    document.getElementById("renweb1").style.color = "black";
+    document.getElementById("zoom1").style.color = "black";
+    document.getElementById('email1').href = 'mailto:vvasconsellos@csa.edu.py'
 
-    document.getElementById('zoom').href = "https://us02web.zoom.us/j/7093269071" 
-    document.getElementById('zoom').innerHTML = "Zoom" 
+    document.getElementById('zoom1').href = "https://us02web.zoom.us/j/7093269071" 
+    document.getElementById('zoom1').innerHTML = "Zoom" 
 }
 function ingles() {
+    renweb()
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -235,6 +282,7 @@ function ingles() {
     document.getElementById('email').href = 'mailto:vvasconsellos@csa.edu.py'
 }
 function joel() {
+    renweb()
     document.body.style.backgroundColor = "orange";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -250,6 +298,7 @@ function joel() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function bio() {
+    renweb()
     document.body.style.backgroundColor = "purple";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -266,6 +315,7 @@ function bio() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function biblia() {
+    renweb()
     document.body.style.backgroundColor = "yellow";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -282,6 +332,7 @@ function biblia() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function art() {
+    renweb()
     document.body.style.backgroundColor = "lightblue";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -300,6 +351,7 @@ function art() {
     
 }
 function ict() {
+    noRenweb()
     document.body.style.backgroundColor = "brown";
     document.body.style.color = "white";
     document.getElementById("clase2").innerHTML = "ICT";
@@ -313,6 +365,7 @@ function ict() {
     document.getElementById('zoom2').innerHTML = "Zoom"  
 }
 function pintos() {
+    noRenweb()
     document.body.style.backgroundColor = "brown";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -330,6 +383,7 @@ function pintos() {
     document.getElementById('zoom2').innerHTML = "Zoom"  
 }
 function geom() {
+    noRenweb()
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
     document.getElementById("clase").innerHTML = "Geometria";
@@ -343,6 +397,7 @@ function geom() {
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/4849009285?pwd=RjJMblRpSG9wbDFzODR2bzcxMmsxZz09" 
 }
 function cont() {
+    noRenweb()
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -358,6 +413,7 @@ function cont() {
     document.getElementById('zoom2').innerHTML = "Zoom"  
 }
 function asamblea() {
+    renweb()
     document.body.style.backgroundColor = "grey";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -384,6 +440,7 @@ function ariel() {
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/9646311511?pwd=NVk5RjIzL1pwNXA3a2J6L2NqWEZvdz09" 
 }
 function guara() {
+    renweb()
     document.body.style.backgroundColor = "gold";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -400,6 +457,13 @@ function guara() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function reset() {
+    document.getElementById("clase1").innerHTML = "";
+    document.getElementById("teach1").innerHTML = "";
+    document.getElementById('zoom1').href = "" 
+    document.getElementById("zoom1").innerHTML = ""
+    document.getElementById('renweb1').innerHTML = "" 
+    document.getElementById("email1").innerHTML = ""; 
+
     document.getElementById("clase2").innerHTML = "";
     document.getElementById("teach2").innerHTML = "";
     document.getElementById('zoom2').href = "" 
@@ -421,8 +485,8 @@ function reset() {
     document.getElementById('zoom4').href = "" 
     document.getElementById("zoom4").innerHTML = ""
     document.getElementById('rw4').innerHTML = "" 
-    document.getElementById("email4").innerHTML = "";   
-
+    document.getElementById("email4").innerHTML = "";
+    
     document.getElementById("clase5").innerHTML = "";
     document.getElementById("teach5").innerHTML = "";
     document.getElementById('zoom5').href = "" 
@@ -430,8 +494,12 @@ function reset() {
     document.getElementById('rw5').innerHTML = "" 
     document.getElementById("email5").innerHTML = "";   
 
+    document.getElementsByClassName("first-table").style.border.left = "none"
+    document.getElementsByClassName("second-table").style.border.left = "none"
+
 } 
 function error() {
+    renweb()
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
     document.getElementById('time').style.color = "white";
@@ -447,6 +515,7 @@ function error() {
     reset()
 }
 function noschool() {
+    renweb()
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
     document.getElementById('link').style.color = "white"
@@ -500,8 +569,8 @@ function alg() {
             document.getElementById('next').innerHTML = "9:15 = Antropologia/Selva CB" 
             reset()
         } else if (total < 36000) {
-            selva()
-            document.getElementById("clase").innerHTML = "Fisica/Quimica CB";
+            selvaCB()
+            document.getElementById("clase1").innerHTML = "Fisica/Quimica CB";
             joelCS()
             document.getElementById("clase2").innerHTML = "Antropologia";
             document.getElementById('next').innerHTML = "10:00 = Recreo"             
