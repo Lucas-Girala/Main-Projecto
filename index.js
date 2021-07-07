@@ -494,8 +494,6 @@ function reset() {
     document.getElementById('rw5').innerHTML = "" 
     document.getElementById("email5").innerHTML = "";   
 
-    document.getElementsByClassName("first-table").style.border.left = "none"
-    document.getElementsByClassName("second-table").style.border.left = "none"
 
 } 
 function error() {
