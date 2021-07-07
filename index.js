@@ -554,6 +554,9 @@ function timeClock(){
     var refresh=1000; // Refresh rate in milli seconds
     mytime=setTimeout('timeThing()',refresh)
 }
+function AutoRefresh( t ) {
+    setTimeout("location.reload(true);", t);
+}
 timeThing()
 
 //Algrotithm
