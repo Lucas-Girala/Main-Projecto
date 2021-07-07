@@ -586,7 +586,7 @@ function alg() {
             document.getElementById('next').innerHTML = "11:30 = ESOL" 
         } else if (total < 43200) {
             esol()
-            document.getElementById('zoom').href = "https://zoom.us/j/91967309913" 
+            document.getElementById('zoom1').href = "https://zoom.us/j/91967309913" 
             document.getElementById('next').innerHTML = "12:00 = Recreo" 
         } else if (total < 48300) {
             error()
@@ -664,7 +664,7 @@ function alg() {
         }
         else if (total < 30300) {
             esol()
-            document.getElementById('zoom').href = "https://zoom.us/j/97448214860"
+            document.getElementById('zoom1').href = "https://zoom.us/j/97448214860"
             document.getElementById('next').innerHTML = "8:30 = Bible Study" 
 
         }else if (total < 33000) {
@@ -799,7 +799,7 @@ function alg() {
             document.getElementById('next').style.color = "white" 
         } else if (total < 51300) {
             esol()
-            document.getElementById('zoom').href = "https://zoom.us/j/93778798119"
+            document.getElementById('zoom1').href = "https://zoom.us/j/93778798119"
             document.getElementById('next').innerHTML = "14:15 = Recreo" 
         } else if (total < 51900) {
             error()
