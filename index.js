@@ -3,7 +3,12 @@ function renweb() {
 }
 function noRenweb() {
     document.getElementById("renweb").innerHTML = ""
+    document.getElementById("clase").innerHTML = "";
     
+}
+function specialNoRenweb() {
+    document.getElementById("renweb").innerHTML = ""
+
 }
 function buss() {
     renweb()
@@ -178,7 +183,7 @@ function literatura() {
     document.getElementById('zoom').innerHTML = "Zoom" 
 }
 function esol() {
-    noRenweb()
+    specialNoRenweb()
     document.body.style.backgroundColor = "red";
     document.body.style.color = "black";
     document.getElementById("next").style.color = "white";
