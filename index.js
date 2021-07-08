@@ -391,15 +391,16 @@ function geom() {
     noRenweb()
     document.body.style.backgroundColor = "blue";
     document.body.style.color = "white";
-    document.getElementById("clase").innerHTML = "Geometria";
-    document.getElementById("teach").innerHTML = "Rosanna";
-    document.getElementById("zoom").innerHTML = "Zoom";
-    document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "black";
-    document.getElementById("renweb").style.color = "black";
-    document.getElementById("zoom").style.color = "black";
-    document.getElementById('email').href = 'mailto:rportillo@csa.edu.py'
-    document.getElementById('zoom').href = "https://us04web.zoom.us/j/4849009285?pwd=RjJMblRpSG9wbDFzODR2bzcxMmsxZz09" 
+    document.getElementById("clase1").innerHTML = "Geometria";
+    document.getElementById("teach1").innerHTML = "Rosanna";
+    document.getElementById("zoom1").innerHTML = "Zoom";
+    document.getElementById("email1").innerHTML = "Email";   
+    document.getElementById("email1").style.color = "black";
+    document.getElementById("renweb1").innerHTML = "Renweb";   
+    document.getElementById("renweb1").style.color = "black";
+    document.getElementById("zoom1").style.color = "black";
+    document.getElementById('email1').href = 'mailto:rportillo@csa.edu.py'
+    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/4849009285?pwd=RjJMblRpSG9wbDFzODR2bzcxMmsxZz09" 
 }
 function cont() {
     noRenweb()
@@ -432,17 +433,36 @@ function asamblea() {
 
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/9749060600" 
 }
-function ariel() {    
+function ariel() {   
+    renweb() 
     document.body.style.backgroundColor = "lightblue";
     document.body.style.color = "black";
     document.getElementById("next").style.color = "black";
     document.getElementById("time").style.color = "black";
+    document.getElementById("clase").innerHTML = "Estadistica";   
     document.getElementById("teach").innerHTML = "Ariel";
     document.getElementById("email").innerHTML = "Email";   
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
-    document.getElementById("zoom").style.color = "black";document.getElementById('email').href = 'mailto:afernandez@csa.edu.py'
+    document.getElementById("zoom").style.color = "black";
+    document.getElementById('email').href = 'mailto:afernandez@csa.edu.py'
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/9646311511?pwd=NVk5RjIzL1pwNXA3a2J6L2NqWEZvdz09" 
+}
+function arielCB() {    
+    noRenweb()
+    document.body.style.backgroundColor = "lightblue";
+    document.body.style.color = "black";
+    document.getElementById("next1").style.color = "black";
+    document.getElementById("time1").style.color = "black";
+    document.getElementById("clase1").innerHTML = "Logica Matematica CB";   
+    document.getElementById("teach1").innerHTML = "Ariel";
+    document.getElementById("email1").innerHTML = "Email";   
+    document.getElementById("email1").style.color = "black";
+    document.getElementById("renweb1").innerHTML = "Renweb";   
+    document.getElementById("renweb1").style.color = "black";
+    document.getElementById("zoom1").style.color = "black";
+    document.getElementById('email1').href = 'mailto:afernandez@csa.edu.py'
+    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/9646311511?pwd=NVk5RjIzL1pwNXA3a2J6L2NqWEZvdz09" 
 }
 function guara() {
     renweb()
@@ -561,7 +581,7 @@ function timeClock(){
 }
 function AutoRefresh( t ) {
     setTimeout("location.reload(true);", t);
-}
+ }
 timeThing()
 
 //Algrotithm
@@ -594,7 +614,7 @@ function alg() {
             document.getElementById('next').innerHTML = "11:30 = ESOL" 
         } else if (total < 43200) {
             esol()
-            document.getElementById('zoom1').href = "https://zoom.us/j/91967309913" 
+            document.getElementById('zoom').href = "https://zoom.us/j/91967309913" 
             document.getElementById('next').innerHTML = "12:00 = Recreo" 
         } else if (total < 48300) {
             error()
@@ -672,7 +692,7 @@ function alg() {
         }
         else if (total < 30300) {
             esol()
-            document.getElementById('zoom1').href = "https://zoom.us/j/97448214860"
+            document.getElementById('zoom').href = "https://zoom.us/j/97448214860"
             document.getElementById('next').innerHTML = "8:30 = Bible Study" 
 
         }else if (total < 33000) {
@@ -780,8 +800,7 @@ function alg() {
             document.getElementById('next').innerHTML = "9:15 = Logica/Antropologia" 
 
         } else if (total < 36000) {
-            ariel()
-            document.getElementById("clase").innerHTML = "Logica Matematica CB";
+            arielCB()
             joelCS()
             document.getElementById("clase2").innerHTML = "Antropologia cultural";
             document.getElementById('next').innerHTML = "10:00 = Recreo" 
