@@ -442,6 +442,7 @@ function ariel() {
     document.getElementById("clase").innerHTML = "Estadistica";   
     document.getElementById("teach").innerHTML = "Ariel";
     document.getElementById("email").innerHTML = "Email";   
+    document.getElementById("zoom").innerHTML = "Zoom";   
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
@@ -452,11 +453,12 @@ function arielCB() {
     noRenweb()
     document.body.style.backgroundColor = "lightblue";
     document.body.style.color = "black";
-    document.getElementById("next1").style.color = "black";
-    document.getElementById("time1").style.color = "black";
-    document.getElementById("clase1").innerHTML = "Logica Matematica CB";   
+    document.getElementById("next").style.color = "black";
+    document.getElementById("time").style.color = "black";
+    document.getElementById("clase1").innerHTML = "Logica Matematica";   
     document.getElementById("teach1").innerHTML = "Ariel";
     document.getElementById("email1").innerHTML = "Email";   
+    document.getElementById("zoom1").innerHTML = "Zoom";   
     document.getElementById("email1").style.color = "black";
     document.getElementById("renweb1").innerHTML = "Renweb";   
     document.getElementById("renweb1").style.color = "black";
