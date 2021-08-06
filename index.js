@@ -429,6 +429,7 @@ function asamblea() {
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
+    document.getElementById("zoom").innerHTML = "Zoom";
     document.getElementById("email").innerHTML = "";   
 
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/9749060600" 
