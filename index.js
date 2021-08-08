@@ -584,8 +584,8 @@ function timeClock(){
 function AutoRefresh( t ) {
     setTimeout("location.reload(true);", t);
  }
-//timeThing()
-guara()
+timeThing()
+
 //Algrotithm
 function alg() {
     if (day == 1) {
