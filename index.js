@@ -12,7 +12,7 @@ function specialNoRenweb() {
 }
 function buss() {
     renweb()
-    document.body.style.backgroundColor = "lightgreen";
+    document.body.style.background = "linear-gradient(to right, #a6ff00, #00ffb3)";
     document.body.style.color = "black";
     document.getElementById('time').style.color = "black";
     document.getElementById("next").style.color = "black";        
@@ -33,15 +33,15 @@ function PE() {
     renweb()
     var jorge;
     jorge=false
-    document.body.style.backgroundColor = "blue";
-    document.body.style.color = "white";
-    document.getElementById("time").style.color = "white";
-    document.getElementById("next").style.color = "white";
+    document.body.style.background = "linear-gradient(to right, #00ccff, #00ff37)";
+    document.body.style.color = "black";
+    document.getElementById("time").style.color = "black";
+    document.getElementById("next").style.color = "black";
     document.getElementById("clase").innerHTML = "Ed. Fisica";
     document.getElementById("email").innerHTML = "";   
-    document.getElementById("email").style.color = "white";
-    document.getElementById("renweb").style.color = "white";
-    document.getElementById("zoom").style.color = "white";
+    document.getElementById("email").style.color = "black";
+    document.getElementById("renweb").style.color = "black";
+    document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "";    
     document.getElementById('zoom').innerHTML = "Zoom";
     if (jorge==true) {
@@ -55,7 +55,7 @@ function PE() {
 }
 function geol() {
     noRenweb()
-    document.body.style.backgroundColor = "brown";
+    document.body.style.background = "linear-gradient(to right, #723700, #d87b02)";
     document.body.style.color = "white";
     document.getElementById("clase1").innerHTML = "Geologia CB";
     document.getElementById("teach1").innerHTML = "Susana Ulibarri";
@@ -72,7 +72,7 @@ function geol() {
 }
 function math() {
     renweb()
-    document.body.style.backgroundColor = "lightblue";
+    document.body.style.background = "linear-gradient(to right, #0044ff, #00ffb3)";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
     document.getElementById("next").style.color = "black";
@@ -88,7 +88,7 @@ function math() {
 }
 function joelCS() {
     noRenweb()
-    document.body.style.backgroundColor = "darksalmon";
+    document.body.style.background = "linear-gradient(to right, #be6d2a, #c55050)";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
     document.getElementById("next").style.color = "black";
@@ -109,7 +109,7 @@ function joelCS() {
 }
 function selva() {
     renweb()
-    document.body.style.backgroundColor = "green";
+    document.body.style.background = "linear-gradient(to right, #a6ff00, #00ffb3)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -126,7 +126,7 @@ function selva() {
 }
 function selvaCB() {
     noRenweb()
-    document.body.style.backgroundColor = "green";
+    document.body.style.background = "linear-gradient(to right, #a6ff00, #00ffb3)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -148,7 +148,7 @@ function selvaCB() {
 }
 function psych() {
     renweb()
-    document.body.style.backgroundColor = "lightblue";
+    document.body.style.background = "linear-gradient(to right, #0044ff, #00ffb3)";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
     document.getElementById("next").style.color = "black";
@@ -166,7 +166,7 @@ function psych() {
 }
 function literatura() {
     renweb()
-    document.body.style.backgroundColor = "red";
+    document.body.style.background = "linear-gradient(to right, #d68504, #ff0000)";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -184,7 +184,7 @@ function literatura() {
 }
 function esol() {
     specialNoRenweb()
-    document.body.style.backgroundColor = "red";
+    document.body.style.background = "linear-gradient(to right, #c300ff, #003cff)";
     document.body.style.color = "black";
     document.getElementById("next").style.color = "white";
     document.getElementById("time").style.color = "white";
@@ -236,7 +236,7 @@ function esol() {
     document.getElementById("zoom4").style.color = "white";
     document.getElementById("email4").href = "mailto:arios@csa.edu.py";  
 
-    document.body.style.backgroundColor = "blue";
+    document.body.style.background = "linear-gradient(to right, #c300ff, #003cff)";
     document.body.style.color = "white";
     document.getElementById("clase5").innerHTML = "CAE 3";
     document.getElementById("teach5").innerHTML = "Mrs Vallese";
@@ -254,7 +254,6 @@ function esol() {
 }
 function global() {
     noRenweb()
-    document.body.style.backgroundColor = "green";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -272,11 +271,11 @@ function global() {
 }
 function ingles() {
     renweb()
-    document.body.style.backgroundColor = "blue";
+    document.body.style.background = "linear-gradient(to right, #c300ff, #003cff)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
-    document.getElementById("clase").innerHTML = "English";
+    document.getElementById("clase").innerHTML = "Literature";
     document.getElementById("teach").innerHTML = "Mr V";
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/7093269071" 
     document.getElementById('zoom').innerHTML = "Zoom" 
@@ -288,7 +287,7 @@ function ingles() {
 }
 function joel() {
     renweb()
-    document.body.style.backgroundColor = "orange";
+    document.body.style.background = "linear-gradient(to right, #be6d2a, #c55050)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -304,7 +303,7 @@ function joel() {
 }
 function bio() {
     renweb()
-    document.body.style.backgroundColor = "purple";
+    document.body.style.background = "linear-gradient(to right, #ff00d4, #0011ff)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -321,7 +320,7 @@ function bio() {
 }
 function biblia() {
     renweb()
-    document.body.style.backgroundColor = "yellow";
+    document.body.style.background = "linear-gradient(to right, #9dff00, #ffbb00)";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
     document.getElementById("next").style.color = "black";
@@ -338,7 +337,7 @@ function biblia() {
 }
 function art() {
     renweb()
-    document.body.style.backgroundColor = "lightblue";
+    document.body.style.background = "linear-gradient(to right, #0044ff, #00ffb3)";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
     document.getElementById("next").style.color = "black";
@@ -357,7 +356,7 @@ function art() {
 }
 function ict() {
     noRenweb()
-    document.body.style.backgroundColor = "brown";
+    document.body.style.background = "linear-gradient(to right, #ac9516, #ff582e)";
     document.body.style.color = "white";
     document.getElementById("clase2").innerHTML = "ICT";
     document.getElementById("teach2").innerHTML = "Sergio";
@@ -371,7 +370,7 @@ function ict() {
 }
 function pintos() {
     noRenweb()
-    document.body.style.backgroundColor = "brown";
+    document.body.style.background = "linear-gradient(to right, #ac9516, #ff582e)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -389,7 +388,7 @@ function pintos() {
 }
 function geom() {
     noRenweb()
-    document.body.style.backgroundColor = "blue";
+    document.body.style.background = "linear-gradient(to right, #c300ff, #003cff)";
     document.body.style.color = "white";
     document.getElementById("clase1").innerHTML = "Geometria";
     document.getElementById("teach1").innerHTML = "Rosanna";
@@ -400,11 +399,11 @@ function geom() {
     document.getElementById("renweb1").style.color = "black";
     document.getElementById("zoom1").style.color = "black";
     document.getElementById('email1').href = 'mailto:rportillo@csa.edu.py'
-    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/2491783834?pwd=bjlZNmxjcHQrYXVMUlFRZXFBczhmdz09" 
+    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/4849009285?pwd=RjJMblRpSG9wbDFzODR2bzcxMmsxZz09" 
 }
 function cont() {
     noRenweb()
-    document.body.style.backgroundColor = "blue";
+    document.body.style.background = "linear-gradient(to right, #c300ff, #003cff)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -420,7 +419,7 @@ function cont() {
 }
 function asamblea() {
     renweb()
-    document.body.style.backgroundColor = "grey";
+    document.body.style.background = "linear-gradient(to right, #858585, #000000)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
     document.getElementById("next").style.color = "white";
@@ -429,14 +428,13 @@ function asamblea() {
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
-    document.getElementById("zoom").innerHTML = "Zoom";
     document.getElementById("email").innerHTML = "";   
 
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/9749060600" 
 }
 function ariel() {   
     renweb() 
-    document.body.style.backgroundColor = "lightblue";
+    document.body.style.background = "linear-gradient(to right, #0044ff, #00ffb3)";
     document.body.style.color = "black";
     document.getElementById("next").style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -452,7 +450,7 @@ function ariel() {
 }
 function arielCB() {    
     noRenweb()
-    document.body.style.backgroundColor = "lightblue";
+    document.body.style.background = "linear-gradient(to right, #0044ff, #00ffb3)";
     document.body.style.color = "black";
     document.getElementById("next").style.color = "black";
     document.getElementById("time").style.color = "black";
@@ -469,7 +467,7 @@ function arielCB() {
 }
 function guara() {
     renweb()
-    document.body.style.backgroundColor = "gold";
+    document.body.style.background = "linear-gradient(to right, #fbff00, #dd994a)";
     document.body.style.color = "black";
     document.getElementById("time").style.color = "black";
     document.getElementById("next").style.color = "black";
@@ -526,7 +524,7 @@ function reset() {
 } 
 function error() {
     renweb()
-    document.body.style.backgroundColor = "black";
+    document.body.style.background = "linear-gradient(to right, #000000, #858585)";
     document.body.style.color = "white";
     document.getElementById('time').style.color = "white";
     document.getElementById('link').style.color = "white"
@@ -542,6 +540,7 @@ function error() {
 }
 function noschool() {
     renweb()
+    document.body.style.background = "linear-gradient(to right, #000000, #858585)";
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
     document.getElementById('link').style.color = "white"
@@ -585,8 +584,8 @@ function timeClock(){
 function AutoRefresh( t ) {
     setTimeout("location.reload(true);", t);
  }
-timeThing()
-
+//timeThing()
+guara()
 //Algrotithm
 function alg() {
     if (day == 1) {
