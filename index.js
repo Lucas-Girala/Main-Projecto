@@ -191,7 +191,7 @@ function esol() {
     document.getElementById("clase").innerHTML = "ESOL";
     document.getElementById("clase1").innerHTML = "CPE";
     document.getElementById("teach1").innerHTML = "Ms Aguilera";
-    document.getElementById('zoom1').href = "https://us02web.zoom.us/j/82891600876" 
+    document.getElementById('zoom1').href = "https://zoom.us/j/99464731160" 
     document.getElementById('zoom1').innerHTML = "Zoom" 
     document.getElementById("email1").innerHTML = "Email";   
     document.getElementById("email1").style.color = "black";
