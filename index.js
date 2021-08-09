@@ -25,7 +25,8 @@ function buss() {
     document.getElementById("email").href = "mailto:jgutierrez@csa.edu.py";     
     document.getElementById('zoom').innerHTML = "Zoom" 
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/73288450883?pwd=Sy8wbEs4ekp2enAvZ1JkZEdWeHpJQT09"
-    
+    document.getElementById("link").style.color = "black";
+
     //href = link
     //innerHTML = 'Zoom'
 }
@@ -44,6 +45,7 @@ function PE() {
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "";    
     document.getElementById('zoom').innerHTML = "Zoom";
+    document.getElementById("link").style.color = "black";
     if (jorge==true) {
     document.getElementById("teach").innerHTML = "Jorge Gaona";
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/7665725728?pwd=ZSt3YW1uY2JMNDFBT1dFZFBvbHU5Zz09"
@@ -67,6 +69,7 @@ function geol() {
     document.getElementById("zoom1").style.color = "black";
     document.getElementById("email1").href = "mailto:sulibarri@csa.edu.py";    
     document.getElementById('zoom1').innerHTML = "Zoom" 
+    document.getElementById("link").style.color = "black";
     document.getElementById('zoom1').href = "https://us04web.zoom.us/j/78641521000?pwd=NjNCZ3dlcmc0emhBdjJidlRYVjczUT09"
     
 }
@@ -81,6 +84,7 @@ function math() {
     document.getElementById("email").innerHTML = "Email";   
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
+    document.getElementById("link").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "mailto:lsanabria@csa.edu.py";    
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/89671926093?pwd=ZjIyellMM2IyVlRRTkY3ZFJadjFMUT09" 
@@ -97,6 +101,7 @@ function joelCS() {
     document.getElementById("email2").style.color = "black";
     document.getElementById("rw").style.color = "black";
     document.getElementById("zoom2").style.color = "black";
+    document.getElementById("link").style.color = "black";
     document.getElementById("email2").href = "mailto:jbritez@csa.edu.py";  
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
@@ -115,7 +120,9 @@ function selva() {
     document.getElementById("next").style.color = "white";
 
     document.getElementById("email").innerHTML = "Email";   
+    
     document.getElementById("email").style.color = "black";
+    document.getElementById("link").style.color = "black";
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "mailto:sbenitez@csa.edu.py";  
@@ -143,8 +150,7 @@ function selvaCB() {
     document.getElementById('zoom1').href = "https://us04web.zoom.us/j/2406578074?pwd=ck11SzJYbzA0UDh1YmxYYm5kcFBrUT09" 
     document.getElementById('zoom1').innerHTML = "Zoom" 
 
-    document.getElementById("link").style.color = "white";   
-
+    document.getElementById("link").style.color = "black";
 }
 function psych() {
     renweb()
@@ -163,6 +169,7 @@ function psych() {
     document.getElementById("teach").innerHTML = "Roxanna";
     document.getElementById('zoom').innerHTML = "Zoom";
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/6570000170?pwd=MFV6NlNRcEJxZWd2Zit4Z1F5N3JhUT09" 
+    document.getElementById("link").style.color = "black";
 }
 function literatura() {
     renweb()
@@ -181,6 +188,7 @@ function literatura() {
     document.getElementById("teach").innerHTML = "Olga";
     document.getElementById('zoom').href = "https://zoom.us/j/6554657772?pwd=Y2szMHc1elNyMGJCeU5DaDBPZmdzUT09"
     document.getElementById('zoom').innerHTML = "Zoom" 
+    document.getElementById("link").style.color = "black";
 }
 function esol() {
     specialNoRenweb()
@@ -249,7 +257,7 @@ function esol() {
     document.getElementById("zoom5").style.color = "black";
     document.getElementById("email5").href = "mailto:vvallese@csa.edu.py";  
 
-    document.getElementById("link").style.color = "white";
+    document.getElementById("link").style.color = "black";
 
 }
 function global() {
@@ -268,6 +276,7 @@ function global() {
 
     document.getElementById('zoom1').href = "https://us02web.zoom.us/j/7093269071" 
     document.getElementById('zoom1').innerHTML = "Zoom" 
+    document.getElementById("link").style.color = "black";
 }
 function ingles() {
     renweb()
@@ -284,6 +293,7 @@ function ingles() {
     document.getElementById("zoom").style.color = "black";
     document.getElementById("email").innerHTML = "Email";   
     document.getElementById('email').href = 'mailto:vvasconsellos@csa.edu.py'
+    document.getElementById("link").style.color = "black";
 }
 function joel() {
     renweb()
@@ -314,6 +324,7 @@ function bio() {
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
     document.getElementById('email').href = 'mailto:sgotz@csa.edu.py'
+    document.getElementById("link").style.color = "black";
     // LUCAS GIRALA
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/3800031585" 
     document.getElementById('zoom').innerHTML = "Zoom" 
@@ -352,6 +363,7 @@ function art() {
     document.getElementById("teach").innerHTML = "Ceci";
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/6087866886?pwd=ckk3THRudDh1VHU3UWtQMHBuWDRydz09" 
     document.getElementById('zoom').innerHTML = "Zoom"
+    document.getElementById("link").style.color = "black";
     
 }
 function ict() {
@@ -367,6 +379,7 @@ function ict() {
     document.getElementById('zoom2').href = "https://zoom.us/j/2730983712?pwd=ZHgzQlc2TTVLQ3BOSkNHWldtdTVadz09" 
     document.getElementById('rw').innerHTML = "RenWeb"
     document.getElementById('zoom2').innerHTML = "Zoom"  
+    document.getElementById("link").style.color = "black";
 }
 function pintos() {
     noRenweb()
@@ -385,6 +398,7 @@ function pintos() {
     document.getElementById('zoom2').href = "https://us04web.zoom.us/j/2313329485?pwd=K1lpZWNoU21TbHNFUU1BV3VvVFJadz09" 
     document.getElementById('rw').innerHTML = "RenWeb"
     document.getElementById('zoom2').innerHTML = "Zoom"  
+    document.getElementById("link").style.color = "black";
 }
 function geom() {
     noRenweb()
@@ -400,6 +414,7 @@ function geom() {
     document.getElementById("zoom1").style.color = "black";
     document.getElementById('email1').href = 'mailto:rportillo@csa.edu.py'
     document.getElementById('zoom1').href = "https://us04web.zoom.us/j/4849009285?pwd=RjJMblRpSG9wbDFzODR2bzcxMmsxZz09" 
+    document.getElementById("link").style.color = "black";
 }
 function cont() {
     noRenweb()
@@ -416,6 +431,7 @@ function cont() {
     document.getElementById('zoom2').href = "https://zoom.us/j/7119144960?pwd=d01nOVIvU0g0OTRoRCtCNHkvYytRUT09" 
     document.getElementById('rw').innerHTML = "RenWeb"
     document.getElementById('zoom2').innerHTML = "Zoom"  
+    document.getElementById("link").style.color = "black";
 }
 function asamblea() {
     renweb()
@@ -431,6 +447,7 @@ function asamblea() {
     document.getElementById("email").innerHTML = "";   
 
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/9749060600" 
+    document.getElementById("link").style.color = "black";
 }
 function ariel() {   
     renweb() 
@@ -447,6 +464,7 @@ function ariel() {
     document.getElementById("zoom").style.color = "black";
     document.getElementById('email').href = 'mailto:afernandez@csa.edu.py'
     document.getElementById('zoom').href = "https://us04web.zoom.us/j/9646311511?pwd=NVk5RjIzL1pwNXA3a2J6L2NqWEZvdz09" 
+    document.getElementById("link").style.color = "black";
 }
 function arielCB() {    
     noRenweb()
@@ -463,6 +481,7 @@ function arielCB() {
     document.getElementById("renweb1").style.color = "black";
     document.getElementById("zoom1").style.color = "black";
     document.getElementById('email1').href = 'mailto:afernandez@csa.edu.py'
+    document.getElementById("link").style.color = "black";
     document.getElementById('zoom1').href = "https://us04web.zoom.us/j/9646311511?pwd=NVk5RjIzL1pwNXA3a2J6L2NqWEZvdz09" 
 }
 function guara() {
@@ -481,6 +500,7 @@ function guara() {
     document.getElementById("teach").innerHTML = "Miguelina";
     document.getElementById('zoom').href = "https://us02web.zoom.us/j/6944644514?pwd=ampjNTVtamU1djFiNVdEcWFMaFltQT09" 
     document.getElementById('zoom').innerHTML = "Zoom" 
+    document.getElementById("link").style.color = "black";
 }
 function reset() {
     document.getElementById("clase1").innerHTML = "";
