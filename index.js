@@ -115,9 +115,9 @@ function selva() {
     document.getElementById("next").style.color = "white";
 
     document.getElementById("email").innerHTML = "Email";   
-    document.getElementById("email").style.color = "white";
-    document.getElementById("renweb").style.color = "white";
-    document.getElementById("zoom").style.color = "white";
+    document.getElementById("email").style.color = "black";
+    document.getElementById("renweb").style.color = "black";
+    document.getElementById("zoom").style.color = "black";
     document.getElementById("email").href = "mailto:sbenitez@csa.edu.py";  
 
     document.getElementById("teach").innerHTML = "Selva Benitez";
@@ -194,10 +194,10 @@ function esol() {
     document.getElementById('zoom1').href = "https://us02web.zoom.us/j/82891600876" 
     document.getElementById('zoom1').innerHTML = "Zoom" 
     document.getElementById("email1").innerHTML = "Email";   
-    document.getElementById("email1").style.color = "white";
+    document.getElementById("email1").style.color = "black";
     document.getElementById("renweb1").innerHTML = "Renweb";
-    document.getElementById("renweb1").style.color = "white";
-    document.getElementById("zoom1").style.color = "white";
+    document.getElementById("renweb1").style.color = "black";
+    document.getElementById("zoom1").style.color = "black";
     document.getElementById('email1').href = 'mailto:english.secondary@csa.edu.py'
 
     document.getElementById("clase2").innerHTML = "CPE 2";
@@ -206,9 +206,9 @@ function esol() {
     document.getElementById("zoom2").innerHTML = "Zoom"
     document.getElementById('rw').innerHTML = "RenWeb" 
     document.getElementById("email2").innerHTML = "Email";   
-    document.getElementById("email2").style.color = "white";
-    document.getElementById("rw").style.color = "white";
-    document.getElementById("zoom2").style.color = "white";
+    document.getElementById("email2").style.color = "black";
+    document.getElementById("rw").style.color = "black";
+    document.getElementById("zoom2").style.color = "black";
     document.getElementById("email2").href = "mailto:nbrice@csa.edu.py";  
 
 
@@ -218,9 +218,9 @@ function esol() {
     document.getElementById("zoom3").innerHTML = "Zoom"
     document.getElementById('rw3').innerHTML = "RenWeb" 
     document.getElementById("email3").innerHTML = "Email";   
-    document.getElementById("email3").style.color = "white";
-    document.getElementById("rw3").style.color = "white";
-    document.getElementById("zoom3").style.color = "white";
+    document.getElementById("email3").style.color = "black";
+    document.getElementById("rw3").style.color = "black";
+    document.getElementById("zoom3").style.color = "black";
     document.getElementById("email3").href = "mailto:vvasconsellos@csa.edu.py";  
 
     document.body.style.backgroundColor = "blue";
@@ -231,9 +231,9 @@ function esol() {
     document.getElementById("zoom4").innerHTML = "Zoom"
     document.getElementById('rw4').innerHTML = "RenWeb" 
     document.getElementById("email4").innerHTML = "Email";   
-    document.getElementById("email4").style.color = "white";
-    document.getElementById("rw4").style.color = "white";
-    document.getElementById("zoom4").style.color = "white";
+    document.getElementById("email4").style.color = "black";
+    document.getElementById("rw4").style.color = "black";
+    document.getElementById("zoom4").style.color = "black";
     document.getElementById("email4").href = "mailto:arios@csa.edu.py";  
 
     document.body.style.background = "linear-gradient(to right, #c300ff, #003cff)";
@@ -244,9 +244,9 @@ function esol() {
     document.getElementById("zoom5").innerHTML = "Zoom"
     document.getElementById('rw5').innerHTML = "RenWeb" 
     document.getElementById("email5").innerHTML = "Email";   
-    document.getElementById("email5").style.color = "white";
-    document.getElementById("rw5").style.color = "white";
-    document.getElementById("zoom5").style.color = "white";
+    document.getElementById("email5").style.color = "black";
+    document.getElementById("rw5").style.color = "black";
+    document.getElementById("zoom5").style.color = "black";
     document.getElementById("email5").href = "mailto:vvallese@csa.edu.py";  
 
     document.getElementById("link").style.color = "white";
@@ -524,13 +524,13 @@ function reset() {
 } 
 function error() {
     renweb()
-    document.body.style.background = "linear-gradient(to right, #000000, #858585)";
+    document.body.style.background = "linear-gradient(to right, #000000, #ffffff)";
     document.body.style.color = "white";
     document.getElementById('time').style.color = "white";
-    document.getElementById('link').style.color = "white"
+    document.getElementById('link').style.color = "black"
     document.getElementById("clase").innerHTML = "Recreo";
-    document.getElementById('next').style.color = "white"
-    document.getElementById('renweb').style.color = "white"
+    document.getElementById('next').style.color = "black"
+    document.getElementById('renweb').style.color = "black"
     document.getElementById("teach").innerHTML = ""
     document.getElementById('zoom').innerHTML = "" 
     document.getElementById('next').innerHTML = "" 
@@ -540,12 +540,12 @@ function error() {
 }
 function noschool() {
     renweb()
-    document.body.style.background = "linear-gradient(to right, #000000, #858585)";
+    document.body.style.background = "linear-gradient(to right, #000000, #ffffff)";
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
-    document.getElementById('link').style.color = "white"
-    document.getElementById('next').style.color = "white"
-    document.getElementById('renweb').style.color = "white"
+    document.getElementById('link').style.color = "black"
+    document.getElementById('next').style.color = "black"
+    document.getElementById('renweb').style.color = "black"
     document.getElementById('time').style.color = "white"
     document.getElementById("clase").innerHTML = "No hay clase.";
     document.getElementById("teach").innerHTML = ""
@@ -554,6 +554,7 @@ function noschool() {
     document.getElementById("email").innerHTML = "";   
     reset()
 }
+
 
 
 //clock
