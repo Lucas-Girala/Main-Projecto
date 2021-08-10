@@ -4,12 +4,13 @@ body {
     font-size: 4vw;
     font-family:'Helvetica';
 }
-a {
+a, li {
     color:lightblue;
-    text-align: center;
+    text-align: left;
     font-size: 3vw;
     text-decoration: none;
     position: relative;
+    list-style: none;
 }
 a:hover {
     color: lightblue;
