@@ -435,10 +435,10 @@ function cont() {
 }
 function asamblea() {
     renweb()
-    document.body.style.background = "linear-gradient(to right, #858585, #000000)";
+    document.body.style.background = "linear-gradient(to right, #000000, #ffffff)";
     document.body.style.color = "white";
     document.getElementById("time").style.color = "white";
-    document.getElementById("next").style.color = "white";
+    document.getElementById("next").style.color = "black";
     document.getElementById("clase").innerHTML = "Asamblea";
     document.getElementById("teach").innerHTML = "???";
     document.getElementById("email").style.color = "black";
@@ -637,7 +637,7 @@ function alg() {
             document.getElementById('next').innerHTML = "11:30 = ESOL" 
         } else if (total < 43200) {
             esol()
-            document.getElementById('zoom').href = "https://zoom.us/j/91967309913" 
+            document.getElementById('zoom').href = "https://zoom.us/j/99464731160" 
             document.getElementById('next').innerHTML = "12:00 = Recreo" 
         } else if (total < 48300) {
             error()
