@@ -444,7 +444,9 @@ function asamblea() {
     document.getElementById("email").style.color = "black";
     document.getElementById("renweb").style.color = "black";
     document.getElementById("zoom").style.color = "black";
+    document.getElementById("zoom").innerHTML = "Zoom";
     document.getElementById("email").innerHTML = "";   
+
 
     document.getElementById('zoom').href = "https://zoom.us/j/92213798307" 
     document.getElementById("link").style.color = "black";
