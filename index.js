@@ -8,6 +8,11 @@ function noRenweb() {
 }
 function specialNoRenweb() {
     document.getElementById("renweb").innerHTML = ""
+    document.getElementById("teach").innerHTML = "";
+    document.getElementById("zoom").innerHTML = "";
+    document.getElementById("email").innerHTML = "";
+    
+    
 
 }
 function buss() {
