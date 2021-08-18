@@ -722,7 +722,7 @@ function alg() {
         }
         else if (total < 30300) {
             esol()
-            document.getElementById('zoom').href = "https://zoom.us/j/97448214860"
+            document.getElementById('zoom1').href = "https://zoom.us/j/97894358558"
             document.getElementById('next').innerHTML = "8:30 = Bible Study" 
 
         }else if (total < 33000) {
