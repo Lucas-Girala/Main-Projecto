@@ -453,7 +453,7 @@ function asamblea() {
     document.getElementById("email").innerHTML = "";   
 
 
-    document.getElementById('zoom').href = "https://zoom.us/j/92213798307" 
+    document.getElementById('zoom').href = "https://us02web.zoom.us/j/9749060600" 
     document.getElementById("link").style.color = "black";
 }
 function ariel() {   
