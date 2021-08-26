@@ -418,7 +418,7 @@ function geom() {
     document.getElementById("renweb1").style.color = "black";
     document.getElementById("zoom1").style.color = "black";
     document.getElementById('email1').href = 'mailto:rportillo@csa.edu.py'
-    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/4849009285?pwd=RjJMblRpSG9wbDFzODR2bzcxMmsxZz09" 
+    document.getElementById('zoom1').href = "https://us04web.zoom.us/j/2491783834?pwd=bjlZNmxjcHQrYXVMUlFRZXFBczhmdz09" 
     document.getElementById("link").style.color = "black";
 }
 function cont() {
