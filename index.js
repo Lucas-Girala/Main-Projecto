@@ -65,7 +65,7 @@ function geol() {
     document.body.style.background = "linear-gradient(to right, #723700, #d87b02)";
     document.body.style.color = "white";
     document.getElementById("clase1").innerHTML = "Geologia CB";
-    document.getElementById("teach1").innerHTML = "Susana Ulibarri";
+    document.getElementById("teach1").innerHTML = "Sus Ulibarri";
     document.getElementById("email1").innerHTML = "Email";   
     document.getElementById("email1").style.color = "black";
     document.getElementById("renweb").innerHTML = "";   
@@ -621,20 +621,20 @@ function alg() {
             noschool()
             document.getElementById('next').innerHTML = "8:00 = Business" 
         }else if (total < 33000) {
+            reset()
             buss()
             document.getElementById('next').innerHTML = "9:15 = Antropologia/Selva CB" 
-            reset()
         } else if (total < 36000) {
+            reset()
             selvaCB()
             document.getElementById("clase1").innerHTML = "Fisica/Quimica CB";
             joelCS()
             document.getElementById("clase2").innerHTML = "Antropologia";
             document.getElementById('next').innerHTML = "10:00 = Recreo"
-            reset()
             
         } else if (total < 37500) {
-            error()
             reset()
+            error()
             document.getElementById('next').style.color = "white" 
             document.getElementById('next').innerHTML = "10:30 = Psicologia" 
             
@@ -645,14 +645,14 @@ function alg() {
             math()
             document.getElementById('next').innerHTML = "11:30 = ESOL" 
         } else if (total < 43200) {
+            reset()
             esol()
             document.getElementById('zoom').href = "https://zoom.us/j/99464731160" 
             document.getElementById('next').innerHTML = "12:00 = Recreo"
-            reset()
 
         } else if (total < 48300) {
-            error()
             reset()
+            error()
             document.getElementById('next').innerHTML = "13:30 = English" 
             document.getElementById('next').style.color = "white" 
         } else if (total < 51300) {
@@ -730,16 +730,16 @@ function alg() {
             document.getElementById('next').innerHTML = "8:30 = Bible Study" 
 
         }else if (total < 33000) {
-            ingles()
             reset()
+            ingles()
             document.getElementById("clase").innerHTML = "Bible Study";
             document.getElementById('next').innerHTML = "9:15 = Artes" 
         } else if (total < 36000) {
             art()
             document.getElementById('next').innerHTML = "10:00 = Recreo" 
         } else if (total < 37500) {
-            error()
             reset()
+            error()
             document.getElementById('next').innerHTML = "10:30 = Global/ICT" 
             document.getElementById('next').style.color = "black" 
         } else if (total < 39300) {
@@ -747,9 +747,9 @@ function alg() {
             ict()
             document.getElementById('next').innerHTML = "11:00 = Historia" 
         } else if (total < 41100) {
+            reset()
             joel()
             document.getElementById("clase").innerHTML = "Historia";
-            reset()
             document.getElementById('next').innerHTML = "11:30 = Math" 
         } else if (total < 43200) {
             math()
@@ -790,16 +790,16 @@ function alg() {
             ict()
             document.getElementById('next').innerHTML = "10:00 = Recreo" 
         }else if (total < 37500) {
-            error()
             reset()
+            error()
             document.getElementById('next').style.color = "black" 
             document.getElementById('next').innerHTML = "10:30 = Fisica" 
             reset()
         } else if (total < 39300) {
+            reset()
             selva()
             document.getElementById("clase").innerHTML = "Fisica";
             document.getElementById('next').innerHTML = "11:00 = Ingles" 
-            reset()
         } else if (total < 41100) {
             ingles()
             document.getElementById('next').innerHTML = "11:30 = Quimica" 
@@ -835,15 +835,15 @@ function alg() {
             document.getElementById('next').innerHTML = "9:15 = Logica/Antropologia" 
 
         } else if (total < 36000) {
+            reset()
             arielCB()
             joelCS()
             document.getElementById("clase2").innerHTML = "Antropologia cultural";
             document.getElementById('next').innerHTML = "10:00 = Recreo" 
-            reset()
     
         } else if (total < 37500) {
-            error()
             reset()
+            error()
             document.getElementById('next').style.color = "black" 
             document.getElementById('next').innerHTML = "10:30 = Guarani" 
         } else if (total < 39300) {
@@ -865,8 +865,8 @@ function alg() {
             document.getElementById('zoom1').href = "https://zoom.us/j/93778798119"
             document.getElementById('next').innerHTML = "14:15 = Recreo" 
         } else if (total < 51900) {
-            error()
             reset()
+            error()
             document.getElementById('next').innerHTML = "14:30 = Global/ICT" 
             document.getElementById('next').style.color = "white" 
         } else if (total < 55800) {
@@ -874,8 +874,8 @@ function alg() {
             ict()
             document.getElementById('next').innerHTML = "15:30 = Salida" 
         } else if (total < 86400) {
-            noschool() 
             reset()
+            noschool() 
         }
     } else {
         noschool()
