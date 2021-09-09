@@ -777,10 +777,10 @@ function alg() {
             document.getElementById('next').innerHTML = "8:00 = Geologia/Invest.Social" 
         }
         else if (total < 30300) {
+            reset()            
             geol()
             pintos()
             document.getElementById('next').innerHTML = "8:30 = Geometria/Contabilidad" 
-            reset()
         }else if (total < 33000) {
             geom()
             cont()
