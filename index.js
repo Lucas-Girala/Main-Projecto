@@ -617,52 +617,57 @@ timeThing()
 //Algrotithm
 function alg() {
     if (day == 1) {
-        if (total < 28500) {
+        if (total < 26700) {
             noschool()
-            document.getElementById('next').innerHTML = "8:00 = Business" 
-        }else if (total < 33000) {
+            document.getElementById('next').innerHTML = "7:30 = Devocional" 
+        }else if (total < 27900) {
+            reset()
+            joel()
+            document.getElementById("clase").innerHTML = "Devocional";
+            document.getElementById('next').innerHTML = "7:50 = Business" 
+        } else if (total < 33900) {
             reset()
             buss()
-            document.getElementById('next').innerHTML = "9:15 = Antropologia/Selva CB" 
-        } else if (total < 36000) {
+            document.getElementById('next').innerHTML = "9:30 = Recreo" 
+            
+        } else if (total < 34800) {
+            reset()
+            error()
+            document.getElementById('next').style.color = "black" 
+            document.getElementById('next').innerHTML = "9:45 = Antropologia/Selva CB" 
+            
+        } else if (total < 37200) {
             reset()
             selvaCB()
             document.getElementById("clase1").innerHTML = "Fisica/Quimica CB";
+            document.getElementById('next').innerHTML = "10:25 = Psicologia" 
             joelCS()
             document.getElementById("clase2").innerHTML = "Antropologia";
-            document.getElementById('next').innerHTML = "10:00 = Recreo"
-            
-        } else if (total < 37500) {
+        } else if (total < 39600) {
+            psych()
+            document.getElementById('next').innerHTML = "11:05 = Recreo" 
+        } else if (total < 41100) {
             reset()
             error()
-            document.getElementById('next').style.color = "white" 
-            document.getElementById('next').innerHTML = "10:30 = Psicologia" 
-            
-        } else if (total < 39300) {
-            psych()
-            document.getElementById('next').innerHTML = "11:00 = Maths" 
-        } else if (total < 41100) {
-            math()
-            document.getElementById('next').innerHTML = "11:30 = ESOL" 
-        } else if (total < 43200) {
+            document.getElementById('next').innerHTML = "11:30 = Maths"
+
+        } else if (total < 43800) {
             reset()
+            math()
+            document.getElementById('next').innerHTML = "12:15 = ESOL" 
+        } else if (total < 46800) {
             esol()
-            document.getElementById('zoom').href = "https://zoom.us/j/99464731160" 
-            document.getElementById('next').innerHTML = "12:00 = Recreo"
+            document.getElementById('next').innerHTML = "13:00 = Recreo" 
+            document.getElementById('zoom1').href = "https://zoom.us/j/99464731160" 
 
         } else if (total < 48300) {
-            reset()
             error()
-            document.getElementById('next').innerHTML = "13:30 = English" 
-            document.getElementById('next').style.color = "white" 
-        } else if (total < 51300) {
-            ingles()
-            document.getElementById('next').innerHTML = "14:15 = Recreo" 
+            document.getElementById('next').innerHTML = "13:30 = Literature" 
+            document.getElementById('next').style.color = "black" 
         } else if (total < 51900) {
-            error()
+            ingles()
             document.getElementById('next').innerHTML = "14:30 = Literatura" 
-            document.getElementById('next').style.color = "white" 
-        } else if (total < 55800) {
+        } else if (total < 51900) {
             literatura()
             document.getElementById('next').innerHTML = "15:30 = Salida" 
         } else if (total < 86400) {
