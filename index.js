@@ -667,7 +667,7 @@ function alg() {
         } else if (total < 51900) {
             ingles()
             document.getElementById('next').innerHTML = "14:30 = Literatura" 
-        } else if (total < 51900) {
+        } else if (total < 55500) {
             literatura()
             document.getElementById('next').innerHTML = "15:30 = Salida" 
         } else if (total < 86400) {
