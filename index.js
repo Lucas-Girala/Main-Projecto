@@ -845,59 +845,69 @@ function alg() {
             document.getElementById('next').innerHTML = "" 
         }
     } else if (day == 5) {
-        if (total < 28500) {
+        if (total < 26700) {
             noschool()
-            document.getElementById('next').innerHTML = "8:00 = Business" 
+            document.getElementById('next').innerHTML = "7:30 = Business" 
         }
-        else if (total < 31200) {
+        else if (total < 29100) {
             buss()
-            document.getElementById('next').innerHTML = "8:45 = Asamblea" 
-        }else if (total < 33000) {
+            document.getElementById('next').innerHTML = "8:10 = Asamblea" 
+        }else if (total < 29100) {
             asamblea()
-            document.getElementById('next').innerHTML = "9:15 = Logica/Antropologia" 
+            document.getElementById('next').innerHTML = "8:50 = Logica/Antropologia" 
 
-        } else if (total < 36000) {
+        } else if (total < 33900) {
             reset()
-            arielCB()
-            joelCS()
-            document.getElementById("clase2").innerHTML = "Antropologia cultural";
-            document.getElementById('next').innerHTML = "10:00 = Recreo" 
+            literatura()
+            document.getElementById('next').innerHTML = "9:30 = Recreo" 
     
-        } else if (total < 37500) {
+        } else if (total < 34800) {
             reset()
             error()
             document.getElementById('next').style.color = "black" 
-            document.getElementById('next').innerHTML = "10:30 = Guarani" 
-        } else if (total < 39300) {
+            document.getElementById('next').innerHTML = "9:45 = Logica / Antrolopogia Cultural" 
+        } else if (total < 37200) {
+            reset()
+            arielCB()
+            joelCS()
+            document.getElementById('clase1').innerHTML = "Logica Matematica"
+            document.getElementById('clase2').innerHTML = "Antropologia Cultural"
+            document.getElementById('next').innerHTML = "10:25 = Guarani" 
+        } else if (total < 39600) {
+            reset()
             guara()
-            document.getElementById('next').innerHTML = "11:00 = Estadistica" 
+            document.getElementById('next').innerHTML = "11:05 = Recreo"
+
         } else if (total < 41100) {
+            reset()
+            document.getElementById('next').style.color = "black" 
+            error()
+            document.getElementById('next').innerHTML = "11:30 = Estadistica"
+
+        } else if (total < 43800) {
+            reset()
             ariel()
-            document.getElementById("clase").innerHTML = "Estadistica";
-            document.getElementById('next').innerHTML = "11:30 = Maths" 
-        } else if (total < 43200) {
+            document.getElementById('next').innerHTML = "12:15 = Maths" 
+        } else if (total < 46800) {
+            reset()
             math()
-            document.getElementById('next').innerHTML = "12:00 = Recreo" 
+            document.getElementById('next').innerHTML = "13:00 = Recreo" 
+
         } else if (total < 48300) {
             error()
             document.getElementById('next').innerHTML = "13:30 = ESOL" 
-            document.getElementById('next').style.color = "white" 
-        } else if (total < 51300) {
+            document.getElementById('next').style.color = "black" 
+        } else if (total < 51900) {
             esol()
             document.getElementById('zoom1').href = "https://zoom.us/j/93778798119"
-            document.getElementById('next').innerHTML = "14:15 = Recreo" 
-        } else if (total < 51900) {
-            reset()
-            error()
-            document.getElementById('next').innerHTML = "14:30 = Global/ICT" 
-            document.getElementById('next').style.color = "white" 
-        } else if (total < 55800) {
+            document.getElementById('next').innerHTML = "14:30 = Global / ICT" 
+        } else if (total < 55500) {
             global()
             ict()
             document.getElementById('next').innerHTML = "15:30 = Salida" 
         } else if (total < 86400) {
-            reset()
-            noschool() 
+            noschool()
+            document.getElementById('next').innerHTML = "" 
         }
     } else {
         noschool()
