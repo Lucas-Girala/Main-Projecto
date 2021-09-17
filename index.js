@@ -852,7 +852,7 @@ function alg() {
         else if (total < 29100) {
             buss()
             document.getElementById('next').innerHTML = "8:10 = Asamblea" 
-        }else if (total < 29100) {
+        }else if (total < 31500) {
             asamblea()
             document.getElementById('next').innerHTML = "8:50 = Logica/Antropologia" 
 
